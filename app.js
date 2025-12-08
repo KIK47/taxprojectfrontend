@@ -26,7 +26,9 @@ const subCategoriesByMain = {
         { value: "ค่าซ่อมบ้านจากอุทกภัย", label: "ค่าซ่อมบ้านจากอุทกภัย" },
         { value: "ค่าซ่อมรถจากอุทกภัย", label: "ค่าซ่อมรถจากอุทกภัย" },
         { value: "เงินที่บริจาคแก่พรรคการเมือง", label: "เงินที่บริจาคแก่พรรคการเมือง" },
-        { value: "ค่าท่องเที่ยวภายในประเทศ", label: "ค่าท่องเที่ยวภายในประเทศ" }
+        { value: "ค่าท่องเที่ยวภายในประเทศ", label: "ค่าท่องเที่ยวภายในประเทศ" },
+        { value: "ดอกเบี้ยเงินกู้ยืมเพื่อที่อยู่อาศัย", label: "ดอกเบี้ยเงินกู้ยืมเพื่อที่อยู่อาศัย" },
+        { value: "ค่าจ้างก่อสร้างอาคารเพื่ออยู่อาศัยขึ้นใหม่", label: "ค่าจ้างก่อสร้างอาคารเพื่ออยู่อาศัยขึ้นใหม่" }
     ],
     easy: [
         { value: "Easy E-Receipt", label: "ค่าซื้อสินค้าหรือค่าบริการในระบบภาษีมูลค่าเพิ่ม" },
@@ -62,7 +64,9 @@ const fieldConfig = {
     "ค่าท่องเที่ยวภายในประเทศ": ["doc_date", "total", "invoice_no", "tax_id_seller","seller", "forbidden_item_type","tax_id_buyer",],
     "Easy E-Receipt": ["doc_date", "total", "invoice_no", "tax_id_seller","seller","forbidden_item_type","tax_id_buyer"],
     "เงินบริจาคสนับสนุนการศึกษา/สถานพยาบาล/สภากาชาดไทย/อื่นๆ": ["doc_date", "total", "net_income"],
-    "เงินบริจาค": ["doc_date", "total", "net_income"]
+    "เงินบริจาค": ["doc_date", "total", "net_income"],
+    "ค่าจ้างก่อสร้างอาคารเพื่ออยู่อาศัยขึ้นใหม่": ["doc_date", "total","net_income"],
+    "ดอกเบี้ยเงินกู้ยืมเพื่อที่อยู่อาศัย": ["doc_date", "total","net_income"],
 };
 
 const careerOptions = [
